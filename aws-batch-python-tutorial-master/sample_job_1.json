@@ -1,0 +1,17 @@
+{
+    "jobName": "sample_job_2",
+    "jobQueue": "TestBatchQueue1",
+    "jobDefinition": "batch_tutorial_job_definition",
+    "containerOverrides": {
+        "environment": [
+            {
+                "name": "save_name",
+                "value": "sample_job_2"
+            },
+            {
+                "name": "var_a",
+                "value": "6"
+            }
+        ]
+    }
+}
